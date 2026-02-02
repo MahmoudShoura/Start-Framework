@@ -62,7 +62,7 @@ export default function NotFound() {
 
                 {/* Action Buttons */}
                 <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                  <a href="/home" className="btn btn-danger btn-lg px-4">
+                  <a href="/" className="btn btn-danger btn-lg px-4">
                     Go Home
                   </a>
                   <a
