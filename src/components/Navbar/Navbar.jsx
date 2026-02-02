@@ -6,7 +6,7 @@ export default function Navbar() {
     <>
       <nav className="navbar m-auto navbar-expand-lg bg-main-color py-4">
         <div className="container">
-          <Link className="navbar-brand text-white fs-2 fw-bolder text-uppercase" to="/home">
+          <Link className="navbar-brand text-white fs-2 fw-bolder text-uppercase" to="/">
             Start Framework
           </Link>
           <button
