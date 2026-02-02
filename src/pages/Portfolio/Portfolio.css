@@ -1,0 +1,34 @@
+.image-card{
+    position: relative;
+    border-radius: 15px;
+}
+
+.image-card img{
+    border-radius: 15px;
+}
+
+.image-card .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#1ABC9C;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.image-card .layer i{
+    color: white ;
+    font-size: 80px ;
+    font-weight: 900;
+
+}
+
+.image-card:hover .layer{
+    opacity: 0.9;
+}

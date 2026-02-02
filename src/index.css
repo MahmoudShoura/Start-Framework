@@ -1,0 +1,69 @@
+
+.bg-main-color {
+    background-color: #2C3E50;
+}
+
+.main-color {
+    color: #2C3E50;
+}
+
+.bg-primary-color{
+    background-color: #1ABC9C;
+    min-height: 100vh;
+}
+
+.primary-color{
+    color: #1ABC9C;
+}
+
+.star-icon{
+    position: relative;
+}
+
+.star-icon::before {
+    content:'';
+    position: absolute;
+    left: 39.5%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    width: 8%;
+    height: 4px;
+}
+
+.star-icon::after {
+    content:'';
+    position: absolute;
+    right: 39.5%;
+    bottom: 35%;
+    transform: translateY(-50%);
+    background-color: white;
+    width: 8%;
+    height: 4px;
+}
+
+.star-icon-black{
+    position: relative;
+}
+
+.star-icon-black::before {
+    content:'';
+    position: absolute;
+    left: 39.5%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #2C3E50;;
+    width: 8%;
+    height: 4px;
+}
+
+.star-icon-black::after {
+    content:'';
+    position: absolute;
+    right: 39.5%;
+    bottom: 35%;
+    transform: translateY(-50%);
+    background-color: #2C3E50;
+    width: 8%;
+    height: 4px;
+}

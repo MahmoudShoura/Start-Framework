@@ -1,0 +1,52 @@
+.form-group {
+    padding: 20px;
+}
+
+
+.form-group label{
+    padding-bottom:15px;
+    color: #1ABC9C;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+    
+}
+
+.btn-primary{
+    background-color:#1ABC9C !important;
+    border-color: #1ABC9C !important;
+}
+
+
+.form-group {
+  position: relative;
+  margin-top: 1.2rem;
+}
+
+.form-group input {
+  background: transparent;
+  padding-top: 0.8rem;
+}
+
+.floating-label {
+  position: absolute;
+  left: 5;
+  top: 0.8rem;
+  font-size: 1rem;
+  color: #666;
+  pointer-events: none;
+  transform-origin: left top;
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+  transform: translateY(4px);
+}
+
+.floating-label.active {
+  top: -10px;
+  font-size: 0.85rem;
+  color: #1ABC9C;
+  opacity: 1;
+  transform: translateY(0);
+}
+

@@ -1,0 +1,11 @@
+.navbar-nav .nav-link.active{
+    background-color: #1ABC9C;
+    color: white;
+    padding: 8px; 
+    border-radius: 6px;
+
+}
+
+.nav-link{
+    margin-right: 16px;
+}
